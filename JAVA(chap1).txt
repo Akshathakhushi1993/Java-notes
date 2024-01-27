@@ -1,0 +1,298 @@
+JAVA
+----
+--IT IS programming language
+--if i communicate with you all i use a medium english similarly if i communicate with system i use java.But there are different types of langauge like kannda,telgu,english why do i use english so that everyone gets what we are teaching?
+--in order to learn java we need to learn 50 classes
+--java also places BACKEND
+J2EE
+----
+--30classes(java,sql and web)
+
+----------------INTRODUCTION TO JAVA--------------------------------
+WHAT IS JAVA?
+WHY JAVA?
+WHO?
+HOW?
+JAVA IS HIGH LEVEL PROGRAMMING LANGUAGE
+	----------
+	HUMAN READABLE FORM/HUMAN UNDERSTANBLE FORM
+
+WE ALL KNOW THAT MY SYSTEM WILL UNDERSTAND BINARY I.E 0,1 WE CANNNOT USE THIS LANGUAGE TO WRITE JAVA
+
+WHAT IS PROGRAMMING LANGAUGE?
+I USE MEDIUM TO COMMUNICATE WITH YOU I.E ENGLISH.SIMILARLY IN ORDER TO COMMUNICATE WITH SYSTEM WE USE JAVA
+
+JAVA Course Content(50-55sessions)
+1.Variable
+2.Datatype
+3.Operators
+4.structure
+5.Conditional statements
+6.Looping statements
+-----------------------------
+1.object,class,keywords and identifiers
+2.Methods,constructors and Blocks
+3.Inheritance
+4.overloading and overriding
+5.Access Modifiers and Encapsulations
+6.casting,Abstract keyword,Interface and Arrays
+7.polymorphism
+8.Adstraction
+-------------------------------
+1.java libraries->string->lambda Functions
+2.Exception Handling
+3.File Handling
+4.Multi-Threading
+5.collection Framework
+
+WHY JAVA?
+-- 1)SIMPLE ---->SYNTAX IS EASY(LEARNING JAVA WILL BECOME VERY EASY)
+--2)PLATFORM INDEPENDENT--->LONG LONG AGO WE HAVE C PROGRAM AND OPERATING WE USE IS WINDOWS CANNOT BE USED IN LINUX CANNOT BE EXECUTED IT IS CALLED PLATFORM DEPENDEND.WE DONT HAVE THAT ISSUE WE CAN EXCEUTE JAVA ANY WHERE WE WANT
+--3)OBJECT ORIENTED--1)OBJECT
+		   2)CLASS
+--4)EXTENSIBLE LANGUAGE--
+ONE DAY CLIENT WILL COME AND GIVE PROJECT
+AFTER LOT OF RESEARCH WE COME TO THE CONCLUSION THAT OUR PROJECT HAS FOUR MODULES I.E
+JAVA	C
+PYTHON	JAVA
+
+WE HAVE TO INTEGRATE WITH JAVA AND START THE APPLICATION
+
+--5)ROBUST(STRONG)
+EXAMPLE:SYSTEM WILL NOT CRASH,NO VIRUS
+--6)AUTOMATIC GARBAGE COLLECTOR
+IN JAVA WHEN WE USE LOT OF UNUSED MEMORY WILL WE FREE UP THE DATA NO JAVA WILL AUTOMATICALLY FREE UP THE SPACE BY REMOVING 
+
+WHAT KING OF APPLICATION CAN I DEVELOP USING JAVA?
+--------------------------------------------------
+1)WEB APPLICATIONS
+2)BUSINESS APPLICATION(BLOGGING SITE,FILPKART)
+3)MOBILE APPLICATION
+4)DESKTOP APPLICATIONS
+5)SCIENTIFIC APPLICATION
+
+COMPANIES
+1)UBER
+2)INSTAGRAM
+3)SPOTIFY
+
+WHO?
+----
+----
+HISTORY
+-------
+JAVA WAS STARTED BY COMPANY---STARTED-SUN MICROSYSTEMS
+			      CURRENTLY-ORACLE
+WHO IS THE OWNER OF JAVA CURRENTLY?-ORACLE
+
+--JAMES GOSLING DEVELOPED A LANGUAGE AND CALLED IT HAS GREEN TALK HAS ITS NOT CATCHY SO HE DESIGNED SOMETHING CALLED OAK FINALLY HE GAVE A NAME JAVA.
+JAVA IS A COFFEE SHOP JAMES WAS HANING OUT IN THAT COFFE SHOP SO THE LOG OF JAVA IS COFFE
+1)GREEN TALK
+2)OAK
+3)JAVA
+
+HOW?
+----
+1)DEVELOP A JAVAPROGRAM 
+JAVAPROGRAM IS ALSO CALLED SOURCE CODE IN HLL
+2)SAVE THE FILE WITH EXTENSION "demo.java" demo is a file name
+3)complie 
+why we should complie?
+program is written by user so we have to check
+if complalination is successful
+		     unsuccessful----->problem---?error report--->go back to program--->debug(correcting thosE mistakes)
+again compile if it is success its good else repeat the process
+4)BYTE CODE(platform independent)
+ONCE COMPLINATION IS DONE WE GENERATE BYTE CODE/INTERMEDIATE WILL BE GENRATED
+BYTECODE--->EITHER HLL AND BINARY  AND FILE EXTENSION(human understanble or machine understandle) "DEMO.class"
+5)interpretter
+windows
+linux
+mac
+unix
+(my system will understant only binary code but we have byte code)
+so there is a person called JVM(PLATFORM SPECIFIC)
+jvm-windows
+jvm-linux
+jvm-mac
+jvm-unix
+jvm stands for java virtual machine
+it will read the byte code and interpret to machine level language and run line by line
+
+so first half is compilation and interpretation
+
+QUESTIONS
+---------
+1)EXPLAIN WORKING OF JAVA PROGRAM
+2)PROVE HOW IS JAVA IS PLATFORM INDEPENDENT
+3)EXPLAIN WORA?WRITE ONE RUN ANYWHERE
+(ALL THE QUESTIONS WE HAVE SAME ANSWER)
+
+VARIABLE
+--------
+--------
+VARIABLE IS A CONTAINER IN ORDER TO STORE SOME DATA OR INFORMATION
+
+AGE=20
+LHS-RHS
+HER CONTAINER IS AGE WHICH IS STROING A VALUE 20
+
+AGE=20
+HEIGHT=5.8
+-- WE HAVE CHALLENGING SITUATION
+AS WE CAN SEE WE CAN DIFFERENT TYPE OF VALIES LIKE 20 AND 5.8 UNTILL AND UNLESS WE SPECIFY THE TYPE 
+
+DATATYPES
+---------
+DATATYPES ARE USED TO INDICATE THE TYPE OF DATA STORED INTO A VARIABLE.
+1)A)NON-DECIMAL NUMERIC VALUES
+	1)BYTE --->1 BYTE OF DATA I.E 8BITS OF DATA
+	2)SHORT--> 2BYTE 16BITS
+	3)INT---->4BYTES 32BITS
+	4)LONG--->8 BYTES 64BITS
+INT IS MORE POPULAR DATATYPE 
+B))DECIMAL NUMERIC VALUES
+	1)FLOAT-->4BYTE 32BITS
+	2)DOUBLE-->8 BYTES 64BITS
+2)BOOLEAN
+TRUE   OR 	FALSE
+1(1BIT) 		0(1BIT)
+
+3)SINGLE CHARACTER
+WHEN WE WANT TO STORE SINGLE BIT OF DATA WE USE CHAR
+	1)CHAR 2BYTES 16BITS
+	' '-->SINGLE QUOTATIONS
+	2)SEQUENCE OF CHARACTER
+	STRING-->X(IT DOESNT HAVE MEMORY SIZE) ALWAYS ENCLOSE THE DATA IN " "-->DOUBLE QUOTES
+NOTE:JAVA IS CASE-SENSITIVE a not equal to A
+			    A not equal to a	
+
+DEAL WITH VARIABLES
+--------------------
+1)variable declation
+------------------
+-- java is easy because it has syntax
+SYNTAX: datatype variablename;
+example1) int age;   
+internally a container will be created 
+-------------------
+|                 |
+-------------------
+2)double height;
+internally a container created
+-------------------
+|                 |
+-------------------
+
+2)variable initialization
+-----------------------
+SYNTAX:variablename=value;
+
+age= 25;
+internally a container will be created with a value
+-------------------
+|        25         |
+-------------------
+
+height=5.5
+internally a container will be created 
+-------------------
+|      5.5           |
+-------------------
+
+3)variable declaration and lnitialization
+------------------------------------------
+synatx: datatype variable=value;
+EX:int marks=99;
+double height=5.5;
+String name="akshatha";
+char gender='M';(it can hold '%' special character '4')
+boolean x=true;
+
+char x='A';
+char x='@'; all are valid  
+char x='4';
+
+String s="java"
+string="x1234"
+string="x.!247"; all are valid
+string="134"
+
+
+ TO DEVELOP A JAVA PROGRAM LETS UNSTAND STRUCTURE OF A JAVA PROGRAM
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+1)CLASS
+2)MAIN METHOD
+3)PRINT STATEMENT
+
+step1:
+    class ClassName
+	{
+	}
+this is called scope of a class
+
+
+step2:
+	class ClassName{
+	public static void main(String[] args)
+	{
+	scope of main method
+	}
+	}
+step3:
+	class ClassName{
+	public static void main(String[] args)
+	{
+	//scope of main method
+	system.out.println();
+	}
+	}
+WAP TO PRINT "HELLO WORLD"
+ class firstprogram{
+public static void main(String[] args){
+System.out.println("hello world");
+}
+}
+
+(String (S is caps) and System also S is caps)
+always classname and filename should be same i.e 
+
+FirstProgram.java
+
+
+---open notepad and write the program and save the file as firstprogram.java and select(all files and save it or else it will consider it has text file)
+--we have to run the code open the command prompt
+c:\>cd desktop
+c:\desktop>javac filename.java
+(compilation will have if any error it will show)
+c:\desktop>java firstprogram.java
+(run the code)
+
+we have different software
+--------------------------
+-----Notepad,Notepad++,editplus
+
+1)JDK(this is manditory)
+java development kit
+(Download jdk and install set the path(.exe))
+2)ECLIPSE
+(DOWNLOAD,EXTRACT IT,PIN TO TASKBAR(.ZIP FILE)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

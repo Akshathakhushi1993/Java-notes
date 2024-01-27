@@ -1,0 +1,329 @@
+chapter 2
+---------
+class Student
+{
+public static void main(String[] args){
+This is variable Decaration
+int age;
+This is Variable Initialization
+age=20;
+This is variable initialization
+age=20;
+String name="Jerry";
+System.out.println(age);
+System.out.println(name);
+}
+}
+we get error
+------------
+Student.java:4: error: ';' expected
+This is variable Decaration
+       ^
+Student.java:4: error: ';' expected
+This is variable Decaration
+                           ^
+Student.java:6: error: ';' expected
+This is Variable Initialization
+       ^
+Student.java:6: error: ';' expected
+This is Variable Initialization
+                               ^
+Student.java:8: error: ';' expected
+This is variable initialization
+       ^
+Student.java:8: error: ';' expected
+This is variable initialization
+
+comments
+---------
+---------
+--comments are additional information which does not affect the execution of a program
+
+single line comment
+//
+
+multiline comment
+/* 
+*/
+
+corrected code
+--------------
+class Student
+{
+public static void main(String[] args){
+//This is variable Decaration
+int age;
+//This is Variable Initialization
+age=20;
+//This is variable initialization
+age=20;
+String name="Jerry";
+System.out.println(age);
+System.out.println(name);
+}
+}
+C:\Users\AKSHATHA\Desktop\javaprograms>javac Student.java
+
+C:\Users\AKSHATHA\Desktop\javaprograms>java Student.java
+20
+Jerry
+
+But if you need the data in full form so what we shall do 
+----------------------------------------------------------
+
+class Student
+{
+public static void main(String[] args){
+//This is variable Decaration
+int age;
+//This is Variable Initialization
+age=20;
+//This is variable initialization
+age=20;
+String name="Jerry";
+System.out.println("the age of a student is ="+age);
+System.out.println("the name of the student is ="+name);
+}
+}
+C:\Users\AKSHATHA\Desktop\javaprograms>javac Student.java
+
+C:\Users\AKSHATHA\Desktop\javaprograms>java Student.java
+the age of a student is =20
+the name of the student is =Jerry
+
+we can also write
+-----------------
+class Student
+{
+public static void main(String[] args){
+//This is variable Decaration
+int age;
+//This is Variable Initialization
+age=20;
+//This is variable initialization
+age=20;
+String name="Jerry";
+System.out.println(".................")
+System.out.println("the age of a student is ="+age);
+System.out.println("the name of the student is ="+name);
+System.out.println(".................")
+System.out.println(name+age)
+System.out.println(".................")
+System.out.println(name+"....."+age)
+}
+}
+
+operators
+---------
+---------
+1)Arithmetic operators
+
++,-,*,/,%
+
+10/2=5
+10%2=0
+
+2)Assignment operators
+
+=,+=,-+,*=,/=,%=
+
+int a=10;
+-------------------
+|      10           |
+-------------------
+a+=5
+(or)
+a=a+5
+-------------------
+|      15         |
+-------------------
+
+WAP TO PERFORM ASSIGNMENT OPERATORS
+-----------------------------------
+class Student
+{
+public static void main(String[] args){
+int a=10;
+int b=15;
+System.out.println(a+b);
+System.out.println(4*b);
+System.out.println(10/5);
+System.out.println(10%2);
+System.out.println("...................")
+
+}
+}
+
+WAP TO PERFORM Arithmetic OPERATORS
+-----------------------------------
+class Student
+{
+public static void main(String[] args){
+int a=10;
+int b=15;
+System.out.println(a+b);
+System.out.println(4*b);
+System.out.println(10/5);
+System.out.println(10%2);
+System.out.println("...................");
+/*Assignment Operators */
+int x=10;
+system.out.println("value of x="+x);
+
+
+}
+}
+
+WAP TO PERFORM Assignment Arithmetic operator
+---------------------------------------------
+class Student
+{
+public static void main(String[] args){
+int a=10;
+int b=15;
+System.out.println(a+b);
+System.out.println(4*b);
+System.out.println(10/5);
+System.out.println(10%2);
+System.out.println("...................");
+/*Assignment Operators */
+int x=10;
+system.out.println("value of x="+x);
+x+=20;//x=x+20;
+System.out.println("value of x="+x);
+int i-=13;
+
+System.out.println("value of i="+i);
+}
+}
+
+
+3)Relational/comparision Operators
+
+<,<=,>,>=,==,!=
+boolean value
+
+what is the difference between a=5 a==5
+a=5 (assigning the value of 5 to a)
+
+a==5(checking the value of LHS=RHS)
+
+4)logical operators
+&&, 	||,	!
+AND	OR	NOT
+it gives boolean value
+
+when you can login into gmail
+id &&(and) password
+
+Amazon->purchase->paytm--(only when you have suffient funds and upi pin the you can use it)			sufficient
+			 upi
+
+Netfix-(if you want to login to the account either email or conatc) after that we can enter password and otp
+-Email
+	contact
+Write the truth table
+WAP for comparision operators
+------------------------------
+
+class firstprogram{
+public static void main(String[] args){
+/* comparision operators */
+System.out.println("---------------");
+int x=10;
+int y=20;
+System.out.println(x<y);
+System.out.println(x<=y);
+System.out.println("---------------");
+System.out.println(y>50);
+System.out.println(y>=20);
+System.out.println("---------------");
+System.out.println(x==y);
+System.out.println(x!=y);
+}
+}
+
+WAP for logical operators
+-------------------------
+
+class firstprogram{
+public static void main(String[] args){
+/* comparision operators */
+System.out.println("---------------");
+int a=10;
+int b=20;
+boolean result=a<b && a==1;
+System.out.println(result);//true
+System.out.println(a<=4 && a==b);//false
+System.out.println("---------------");
+System.out.println(a<=5 && b==5);
+System.out.println(a==b || b!=2);
+System.out.println("---------------");
+System.out.println(!(a<5));
+System.out.println(!(20<5));
+}
+}
+
+5)Unary operators
+------------------
+++-->increment by 1
+int x=5;
+-------------------
+|        5         |
+-------------------
+int y=x++;
+(before the variable is pre and after the variable it is post)
+
+1)post increment-first assign then increment
+int x=5;
+y=x++
+step1:first assigns the value
+-------------------
+|   y=  5             | 
+-------------------
+
+step2:then it increment
+-------------------
+|    x=6             |
+-------------------
+2)pre increment-first increment then assign it
+-- ->Decrement by 1
+int x=3;
+-------------------
+|   a=  3             | 
+-------------------
+int b=++a;
+-------------------
+|   b=4             | 
+-------------------
+(a=4,b=4)
+1)post increment
+2)pre increment
+
+-- decrement
+1)post decrement
+2)pre decrement
+
+1)post decrement
+int x=10
+int y=x--
+(y=10 and x=9)
+
+2)pre decrement-first decrement and then assign the value
+int a=5
+int b=--a
+(b=4 and a=5)
+
+
+6)Ternary operator
+condition?True:false;
+class ClassName{
+	public static void main(String[] args)
+	{
+	int p=10;
+int q=5;
+int max=p>q?p:q;
+System.out.println("maximun of "+p+" & "+q+" is "+max);
+	}
+	}
+
