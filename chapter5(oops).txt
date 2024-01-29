@@ -1,0 +1,142 @@
+OBJECT ORIENTED PROGRAMMING
+---------------------------
+--WHAT IS AN OBJECT?
+ANYTHING WHICH IS IN THE REAL WORLD WHETHER IT IS LIVING OR NONLIVING
+EXAMPLE"CAR,LAPTOP,PEN,HUMAN BEING,..........
+==EVERY OBJECT YOU CONSIDER WE HAVE 
+1)PROPERTIES/STATES-->STORES SOME DATA
+2)BEHAVIOUR--->TASK
+1)STATES ARE NOTHING BUT STORING SOME DATA
+2)BEHAVIOR TASK
+
+EAXMPLE:
+WE CAN CONSIDER CAR AN AN OBJECT
+1)STATES---COMPANY(EVERY CAR WILL HAVE COMPANYNAME),COLOR,COST
+2)BEHAVIOUR---START THE CAR,STOP THE CAR,SHIFT GEARS
+
+MOBILES
+1)STATES--BRAND,PRICE,RAM......
+2)BEHAVIOUR--CALLING SOMEONE,MESSAGE SOMEONE,VIDEO CALLING
+
+STATES ARE GENERALLY CALLED HAS VARIABLES/DATA MEMEBERS
+BEHAVIOU ARE METHODS/FUNCTIONS
+
+WHAT IS A CLASS?
+----------------
+----------------
+1)IT IS A BLUR PRINT OF AN OBJECT
+
+2)WHAT IS THE MEANING OF BLUE PRINT?
+IF I CONSTRUCT A HOUSE BASICALLY BULE PRINT OF HOW THE BUILDING LOOK LIKE
+
+OR
+
+3)IT IS A PLATFORM TO BUILT A VARIABLES AND METHOD
+
+OR CLASS IS A LOGICAL ENTITY.
+
+4)KEYWORD-->CLASS
+5)CLASS CAN ACT HAS A DATATYPE
+
+SYNTAX:
+class CLASSNAME
+{
+scope of a class
+// what we can store
+1)variables
+2)methods
+3)blocks
+4)constructors
+}
+
+eg:
+
+class Car
+{
+}
+
+program
+--------
+
+class Student
+{
+int age=20;
+String name='AKshatha';
+
+}
+
+
+now we should umderstand whether the variables in class are static variable or non-static variable
+
+static variable
+---------------
+if a variable decleared with static variable then it if static variable
+static int a=10;
+
+non-static variable
+-------------------
+if a variable decleared without static variable then it if static variable
+int a=10;
+
+object creation or instatiation
+-------------------------------
+1)store it in the memory
+2)heap area(where object will be created)
+3)'new' operatore
+4)multiple objects
+
+syantax for creating an objects
+-------------------------------
+classname objectreferencename=new classname();
+
+ex:
+class Pen{
+Pen p=new Pen();
+}
+
+class Car
+{
+Car c= new Car();
+}
+
+--always main program starts from 
+class student		psvm()
+{			{
+int age=20;			s.o.p("start");
+string name="dinga";	Studnet s=new Student();
+
+	 		s.o.p(s.age);
+s----->111		s.o.p(s.name);
+/*age-->20;
+name-->"dinga"
+*/
+			s.o.p("end");	
+}			}
+
+5)to access (.) dot operator
+syntax:
+objectName.variableName
+
+
+what is obejct?
+copy of class or instance of class
+
+program
+-------
+class Student
+{
+//NON-STATIC VARIABLES
+int age=20;
+String name='Dinga';
+
+public static void main(string[] args)
+{
+System.out.println("start");
+Student s=new Student();
+System.out.println(s.age);
+
+System.out.println(s.name);
+
+System.out.println("end");
+}
+}
